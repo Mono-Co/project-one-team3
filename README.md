@@ -1,5 +1,5 @@
-# Project-one-team3
-******Stock Analysis Project*****
+# Team 3 Project
+******Stock Market Review*****
 
 Team Members:
 
