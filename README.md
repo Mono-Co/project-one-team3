@@ -20,7 +20,7 @@ Dependencies
 ** matplotlib.pyplot for creating static plots
 ** statistics for statistical analysis
 
-Project Workflow
+Project Workflow:
 
 The project starts by fetching historical stock price data for multiple companies from the Nasdaq Data Link API using the nasdaqdatalink library.
 The fetched data is stored in CSV files for further processing.
@@ -30,22 +30,22 @@ Data Preparation:
 The stock data CSV files are imported into Pandas DataFrames.
 To maintain consistency and accuracy, the data is carefully cleaned and processed.
 
-Data Analysis
+Data Analysis:
 
 To obtain insights into the performance of each stock, a thorough analysis of metrics such as open, high, low, close prices, and trading volume is conducted.
 
-Data Visualisation
+Data Visualisation:
 The hvplot.pandas and matplotlib.pyplot libraries are used to create both static and interactive charts that show the trend of stock prices and trading volume.
 Several data visualization techniques are utilized, including histograms, scatter plots, and line charts.
 
-Statistical Analysis
+Statistical Analysis:
 
 Statistical measures such as percentage change in stock prices are calculated to assess the performance of each stock.
 
-Manual
+Usage:
 Install all the necessary dependencies are installed in the python environment.
 Use the supplied Python script to run the stock data extraction and analysis.
 Review the generated plots and insights to understand the performance of each stock.
 
-Conclusion
+Conclusion:
 This project provides valuable insights on how various companies listed on the Nasdaq exchange are performing in the stock market. Investors can use historical stock price data analysis and visualization of key metrics to make well-informed decisions regarding their investment strategies.
