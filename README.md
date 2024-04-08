@@ -3,11 +3,11 @@
 
 Team Members:
 
-Team awesome, we have the following team members;
-Ben,
-Dinna,
-Ned, &
-Yash
+We have the following team members:
+Ben:
+Dinna:
+Ned:
+Yash:
 
 The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected seven companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL, Monday: MNDY, Atlassian: TEAM. 
 
