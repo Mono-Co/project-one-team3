@@ -35,12 +35,13 @@ To maintain consistency and accuracy, the data is carefully cleaned and processe
 Data Analysis:
 
 To obtain insights into the performance of each stock, a thorough analysis of metrics such as open, high, low, close prices, and trading volume is conducted.
+A historical view of the closing price for all stocks in the company list was generated.
 
 Data Visualisation:
 
 The hvplot.pandas and matplotlib.pyplot libraries are used to create both static and interactive charts that show the trend of stock prices and trading volume.
 Several data visualization techniques are utilized, including histograms, scatter plots, and line charts.
-
+A script to calculate percentage change in closing price, and outputs the price for a specific company was generated
 Statistical Analysis:
 
 Statistical measures such as percentage change in stock prices are calculated to assess the performance of each stock.
