@@ -9,7 +9,7 @@ Dinna;
 Ned;&
 Yash:
 
-The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected seven companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL, Monday: MNDY, Atlassian: TEAM. 
+The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected seven companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL, Monday: MNDY, Atlassian: TEAM. The analysis includes the visualization of historical opening and closing prices, trade volume, and percentage change in opening prices.
 
 Dependencies:
 
@@ -24,8 +24,9 @@ Dependencies:
 
 Project Workflow:
 
-The project starts by fetching historical stock price data for multiple companies from the Nasdaq Data Link API using the nasdaqdatalink library.
-The fetched data is stored in CSV files for further processing.
+The code is organized into sections, each performing a specific task such as data collection, exploration, visualization, and analysis.
+It starts by fetching historical stock price data for multiple companies from the Nasdaq Data Link API using the nasdaqdatalink library.
+Data for each stock (GOOG, META, MSFT, MSTR, AAPL, MNDY, TEAM) is collected, processed, and exported into separate CSV files for further analysis.
 
 Data Preparation:
 
@@ -40,18 +41,20 @@ A historical view of the closing price for all stocks in the company list was ge
 Data Visualisation:
 
 The hvplot.pandas and matplotlib.pyplot libraries are used to create both static and interactive charts that show the trend of stock prices and trading volume.
-Several data visualization techniques are utilized, including histograms, scatter plots, and line charts.
+Several data visualization techniques are utilized, including box plots, scatter plots, and line charts.
 A script to calculate percentage change in closing price, and outputs the price for a specific company was generated
+
 Statistical Analysis:
 
 Statistical measures such as percentage change in stock prices are calculated to assess the performance of each stock.
 
 Usage:
 
-Install all the necessary dependencies are installed in the python environment.
-Use the supplied Python script to run the stock data extraction and analysis.
-Review the generated plots and insights to understand the performance of each stock.
+1.Install all the necessary dependencies are installed in the python environment using 'pip install -r requirements.txt'..
+2.Use the supplied Python script to run the stock data extraction and analysis.
+3.Export CSV files containing the collected data for furthe analysis, visualization, and interpretation. The data will be exported to the output_data.
+4.Review the generated plots and insights to understand the performance of each stock.
 
 Conclusion:
 
-This project provides valuable insights on how various companies listed on the Nasdaq exchange are performing in the stock market. Investors can use historical stock price data analysis and visualization of key metrics to make well-informed decisions regarding their investment strategies.
+This project offers insightful information about the stock market performance of the seven companies listed above that are listed on the Nasdaq exchange. Investors can make well-informed decisions about their investing plans by using historical stock price data analysis and key metrics visualization.
