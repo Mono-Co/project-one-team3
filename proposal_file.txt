@@ -1,0 +1,35 @@
+Team 3 Project
+Stock Market Review
+
+Proposal: 
+We are working for a large equity-trading company, and have been tasked with researching a client’s portfolio. Your client wants to invest in telecom stocks and needs expert analysis to make the right decision. 
+
+Team Members :
+Yashada
+Ben
+Witness
+Ned
+
+Project Description/Idea :
+Our client wishes to invest in the stock market 
+We will analyse at least 6 stocks of Tech companies. The Client  has asked for data to be assessed over a 1 year period and recommend the best performing stock in the tech sector.
+
+Stocks:
+Google: GOOG
+FaceBook: META
+Microsoft: MSFT
+MicroStrategy Incorporated: MSTR
+Apple: AAPL
+Monday: MNDY
+
+Variables:
+Which stocks are trending upward? Which are trending downward? 
+Generate graphs from data for comparison.
+A 50-day moving average on all stocks 
+We could then also compare their performance against each other. 
+Analyse the chart to identify patterns, correlations, or anomalies in the percent changes of the seven stocks over time
+Based on the data, what stocks would you recommend to our client? 
+
+
+Data sources :
+https://data.nasdaq.com/tools/api
