@@ -134,3 +134,5 @@ Open-source libraries used for data analysis and visualization.
 
 Your feedback is highly appreciated! If you have any suggestions, questions, or issues, please create an issue.
 
+<img width="1342" alt="image" src="https://github.com/Mono-Co/project-one-team3/assets/69753431/b1656a29-e343-484d-a635-238ec873b044">
+
