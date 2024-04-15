@@ -1,5 +1,8 @@
-# **Team 3 Project**
+**Team 3 Project**
 ********Stock Market Review*******
+
+<img width="953" alt="image" src="https://github.com/Mono-Co/project-one-team3/assets/69753431/68cb7d7c-19af-4876-9e9b-caea811b7708">
+
 
 **Contributors:**
 
@@ -15,9 +18,14 @@
 
 The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected six companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL,and Monday: MNDY. The analysis includes the visualization of historical opening and closing prices, trade volume, and percentage change in opening prices.
 
+**Project Method**
+Identifying the coding dependencies, our API to obtain the data was nasdaqdatalinkfrom Nasdaq. Also we incorporated matplotlib.pyplot for creating static plots & statistics for statistical analysis. 
+The stock data was initially obtained through the API, and following data cleaning and processing saved as CSV files for for re-importing as Pandas DataFrames. 
+To obtain insights into the performance of each stock, a thorough analysis of metrics such as open, high, low, close prices, and trading volume, moving averages was conducted. A historical view of the closing price for all stocks in the company list was generated. Also generated charts & plots are used to visualise and analyse the data.
+This project offers insightful information about the stock market performance of the companies chosen from the Nasdaq. Investors can make well-informed decisions about their investing plans by using historical stock price data analysis and key metrics visualization.
 
 **Project Structure:**
-
+API (Nasdaq Datalink): this is a live data API / Python Module that created tabled directly within a DataFrame, based on the GET query. The NASDAQ DATALINK is based on the QUOTEMEDIA/PRICES request using the NASDAQ API / SDK. (Refer to the NASDAQ documentation for further information).
 data: contains CSV files of stock data for each company.
 notebooks: Jupyter notebooks for data analysis and visualization.
 src: Python scripts for data cleaning, analysis, and visualization.
@@ -27,17 +35,11 @@ README.md: Overview of the project and instructions for usage.
 **Dependencies:**
 
 ** hvplot.pandas for interactive plotting
-
 ** pandas for data manipulation and analysis
-
 ** pathlib.Path for working with file paths
-
 ** nasdaqdatalink for fetching stock data from the Nasdaq API
-
 **import numpy as np for numerical computing
-
 ** matplotlib.pyplot for creating static plots
-
 ** statistics for statistical analysis
 
 
@@ -51,6 +53,9 @@ Data for each stock (GOOG, META, MSFT, MSTR, AAPL, MNDY) is collected, processed
 **Data Preparation:**
 
 **Two methods were set in place**
+We used two main mehtods for bringing date into the project.
+
+<img width="801" alt="image" src="https://github.com/Mono-Co/project-one-team3/assets/69753431/de6ae8e1-c10f-4f32-b584-5052c97199f9">
 
 **Method 1**: In case of a paid membership with Nasdaq, use NASDAQ API: (This will require you to skip the import CSV file cells nominated within the Jupyter notebook)
 
@@ -68,14 +73,27 @@ To obtain insights into the performance of each stock, a thorough analysis of me
 A historical view of the closing price for all stocks in the company list was generated.
 
 
-
 **Data Visualisation:**
 
 The hvplot.pandas and matplotlib.pyplot libraries are used to create both static and interactive charts that show the trend of stock prices and trading volume.
 Several data visualization techniques are utilized, including box plots, scatter plots, and line charts.
 A script to calculate percentage change in closing price, and outputs the price for a specific company was generated.
 
+Our projects includes visulasiing data as follows:
+- Plotting the Closing Price of each company 
+- Plotting the Closing Price of each stock on a single Chart
+- Creating a new Data Frame for Close Price Mean, Median, Variance and Standard Deviation using the .style funcation. 
+- Plotting the Volume of Sales
+- Plotting of the distribution of stock Daily Volumen using volume ranges
+- Plot 10 days, 20 days, 30 days Moving Average of Stocks 
+- Plot percentage of Daily Return of the shares 
+- Plot Correlation between recommended stocks closing price and trading volume, including Linear Regression
 
+![Close price for all stocks](https://github.com/Mono-Co/project-one-team3/assets/69753431/6333ef59-35bc-4d07-be71-2dc7acbb77b4)
+Close Price for all Stock Visulation.
+
+![volume_ranges](https://github.com/Mono-Co/project-one-team3/assets/69753431/7d0fdd59-ec4a-4b3e-a0c9-4d1ef9e6b4d4)
+Stock Daily Trade Volume Range Visulation.
 
 **Statistical Analysis:**
 
@@ -85,7 +103,7 @@ Statistical measures such as percentage change in stock prices are calculated to
 
 **Usage:**
 
-1.Install all the necessary dependencies are installed in the python environment using 'pip install -r requirements.txt'.
+1.Install all the necessary dependencies are installed in the python environment using 'pip install -r requirements.txt'. This will require a Authentaction to the Nasdaq API. For “nasdaq-data-link” the API Key is noted in the api_config.py file on your local computer files, therefore no API_Config.py file is provided in the GitHub Repository.(Refer to the NASDAQ documentation for further information).
 
 2.Use the supplied Python script to run the stock data extraction and analysis.
 
