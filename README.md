@@ -2,8 +2,6 @@
 ******Stock Market Review*****
 
 Contributors:
-
-We have the following team members:
 Ben;
 Dinna;
 Ned;&
@@ -13,7 +11,7 @@ The primary objective of this project is to perform a comprehensive analysis of 
 
 Project Structure:
 
-data:Contains CSV files of stock data for each company.
+data: contains CSV files of stock data for each company.
 notebooks: Jupyter notebooks for data analysis and visualization.
 src: Python scripts for data cleaning, analysis, and visualization.
 README.md: Overview of the project and instructions for usage.
