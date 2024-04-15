@@ -35,7 +35,9 @@ It starts by fetching historical stock price data for multiple companies from th
 Data for each stock (GOOG, META, MSFT, MSTR, AAPL, MNDY, TEAM) is collected, processed, and exported into separate CSV files for further analysis.
 
 Data Preparation:
-
+Two methods were set in place;
+Method 2: In case of a paid membership with Nasdaq, use NASDAQ API:
+Method 2: In case of free membership with Nasdaq datasource, use csv files stored in Resources folder:
 The stock data CSV files are imported into Pandas DataFrames.
 To maintain consistency and accuracy, the data is carefully cleaned and processed.
 
@@ -64,7 +66,7 @@ Usage:
 
 Conclusion:
 
-This project offers insightful information about the stock market performance of the seven companies listed above that are listed on the Nasdaq exchange. Investors can make well-informed decisions about their investing plans by using historical stock price data analysis and key metrics visualization.
+This project offers insightful information about the stock market performance of the six companies listed above that are listed on the Nasdaq exchange. Investors can make well-informed decisions about their investing plans by using historical stock price data analysis and key metrics visualization.
 
 Acknowledgements
 Nasdaq Data Link API for providing access to stock data.
