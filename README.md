@@ -52,9 +52,9 @@ Data for each stock (GOOG, META, MSFT, MSTR, AAPL, MNDY) is collected, processed
 
 **Two methods were set in place**
 
-**Method 2**: In case of a paid membership with Nasdaq, use NASDAQ API:
+**Method 1**: In case of a paid membership with Nasdaq, use NASDAQ API: (This will require you to skip the import CSV file cells nominated within the Jupyter notebook)
 
-**Method 2**: In case of free membership with Nasdaq datasource, use csv files stored in Resources folder:
+**Method 2**: In case of free membership with Nasdaq datasource, use csv files stored in Resources folder: (This will require you to skip the API Method 1 section and start at the CSV file import cells as nominated within the Jupyter notebook)
 
 The stock data CSV files are imported into Pandas DataFrames.
 
