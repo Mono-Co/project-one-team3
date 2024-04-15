@@ -66,10 +66,12 @@ Conclusion:
 
 This project offers insightful information about the stock market performance of the six companies listed above that are listed on the Nasdaq exchange. Investors can make well-informed decisions about their investing plans by using historical stock price data analysis and key metrics visualization.
 
-Acknowledgements
+Acknowledgements:
+
 Nasdaq Data Link API for providing access to stock data.
 Open-source libraries used for data analysis and visualization.
 
-Feedback
+Feedback:
+
 Your feedback is highly appreciated! If you have any suggestions, questions, or issues, please create an issue.
 
