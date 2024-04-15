@@ -39,16 +39,25 @@ README.md: Overview of the project and instructions for usage.
 
 
 **Dependencies:**
-** -hvplot.pandas for interactive plotting
-** -pandas for data manipulation and analysis
-** -pathlib.Path for working with file paths
-** -nasdaqdatalink for fetching stock data from the Nasdaq API
-** -import numpy as np for numerical computing
-** -matplotlib.pyplot for creating static plots
-** -statistics for statistical analysis
-** -import scipy.stats for statistical analysis
-** -scipy.stats for linregress analysis
-** -matplotlib.ticker for ticker configuration
+-hvplot.pandas for interactive plotting
+
+-pandas for data manipulation and analysis
+
+-pathlib.Path for working with file paths
+
+-nasdaqdatalink for fetching stock data from the Nasdaq API
+
+-import numpy as np for numerical computing
+
+-matplotlib.pyplot for creating static plots
+
+-statistics for statistical analysis
+
+-import scipy.stats for statistical analysis
+
+-scipy.stats for linregress analysis
+
+-matplotlib.ticker for ticker configuration
 
 
 
