@@ -1,5 +1,4 @@
-**Team 3 Project**
-********Stock Market Review*******
+********Stock Market Analysis*******
 
 <img width="953" alt="image" src="https://github.com/Mono-Co/project-one-team3/assets/69753431/68cb7d7c-19af-4876-9e9b-caea811b7708">
 
