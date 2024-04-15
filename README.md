@@ -15,7 +15,6 @@
 **Yash**
 
 
-
 The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected six companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL,and Monday: MNDY. The analysis includes the visualization of historical opening and closing prices, trade volume, and percentage change in opening prices.
 
 **Project Method**
@@ -55,7 +54,9 @@ Data for each stock (GOOG, META, MSFT, MSTR, AAPL, MNDY) is collected, processed
 **Two methods were set in place**
 We used two main mehtods for bringing date into the project.
 
-<img width="801" alt="image" src="https://github.com/Mono-Co/project-one-team3/assets/69753431/de6ae8e1-c10f-4f32-b584-5052c97199f9">
+<img width="1197" alt="image" src="https://github.com/Mono-Co/project-one-team3/assets/69753431/8958c050-cee7-4b50-be0f-e3d362dd9a7a">
+
+
 
 **Method 1**: In case of a paid membership with Nasdaq, use NASDAQ API: (This will require you to skip the import CSV file cells nominated within the Jupyter notebook)
 
