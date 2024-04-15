@@ -1,7 +1,7 @@
 # Team 3 Project
 ******Stock Market Review*****
 
-Team Members:
+Contributors:
 
 We have the following team members:
 Ben;
@@ -9,16 +9,22 @@ Dinna;
 Ned;&
 Yash:
 
-The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected seven companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL, Monday: MNDY, Atlassian: TEAM. The analysis includes the visualization of historical opening and closing prices, trade volume, and percentage change in opening prices.
+The primary objective of this project is to perform a comprehensive analysis of the stock market data for companies listed on the Nasdaq stock exchange. We selected six companies, namely, Google: GOOG, Facebook: META, Microsoft: MSFT, MicroStrategy Incorporated: MSTR, Apple: AAPL, Monday: MNDY, Atlassian: TEAM. The analysis includes the visualization of historical opening and closing prices, trade volume, and percentage change in opening prices.
+
+Project Structure:
+
+data:Contains CSV files of stock data for each company.
+notebooks: Jupyter notebooks for data analysis and visualization.
+src: Python scripts for data cleaning, analysis, and visualization.
+README.md: Overview of the project and instructions for usage.
 
 Dependencies:
 
 ** hvplot.pandas for interactive plotting
 ** pandas for data manipulation and analysis
-** requests for making HTTP requests to fetch data
-** json for working with JSON data
 ** pathlib.Path for working with file paths
 ** nasdaqdatalink for fetching stock data from the Nasdaq API
+**import numpy as np for numerical computing
 ** matplotlib.pyplot for creating static plots
 ** statistics for statistical analysis
 
@@ -53,8 +59,17 @@ Usage:
 1.Install all the necessary dependencies are installed in the python environment using 'pip install -r requirements.txt'..
 2.Use the supplied Python script to run the stock data extraction and analysis.
 3.Export CSV files containing the collected data for furthe analysis, visualization, and interpretation. The data will be exported to the output_data.
-4.Review the generated plots and insights to understand the performance of each stock.
+4. Run the Jupyter file Nasdaq_python_Project.ipynb to analyze the stock data.
+5.Review the generated plots and insights to understand the performance of each stock.
 
 Conclusion:
 
 This project offers insightful information about the stock market performance of the seven companies listed above that are listed on the Nasdaq exchange. Investors can make well-informed decisions about their investing plans by using historical stock price data analysis and key metrics visualization.
+
+Acknowledgements
+Nasdaq Data Link API for providing access to stock data.
+Open-source libraries used for data analysis and visualization.
+
+Feedback
+Your feedback is highly appreciated! If you have any suggestions, questions, or issues, please create an issue.
+
